@@ -89,7 +89,7 @@ configuration = shipping.Configuration(
 
 # Configure Bearer authorization: bearerAuth
 configuration = shipping.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
+    access_token = <"BEARER_TOKEN">
 )
 
 
